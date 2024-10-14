@@ -16,7 +16,7 @@ export default function Header() {
                     <div className="flex mr-12">
                         <Link to="/" className="px-8">Home</Link>
                         <Link to="/contact" className="px-8">Contact</Link>
-                        <p className="px-8">Venues</p>
+                        <Link to="/register" className="px-8">Venues</Link>
                     </div>
 
                     <icons.heartIcon />
