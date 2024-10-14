@@ -1,6 +1,6 @@
-import FAQ from '../../components/FAQ'
-import ContactInfo from '../../components/ContactInfo'
-import ContactForm from '../../components/ContactForm'
+import ContactInfo from "./components/ContactInfo";
+import ContactForm from "./components/ContactForm";
+import FAQ from "../../components/FAQ";
 
 export default function ContactPage() {
   return (
@@ -16,5 +16,5 @@ export default function ContactPage() {
         alt=""
       />
     </div>
-  )
+  );
 }
